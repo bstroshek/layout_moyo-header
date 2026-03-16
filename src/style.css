@@ -7,11 +7,6 @@ body {
   --font-main: 'Roboto', sans-serif;
 }
 
-a {
-  color: var(--color-text);
-  transition: all 0.3s;
-}
-
 .header {
   width: 100%;
   padding: 0 50px;
@@ -51,6 +46,7 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   position: relative;
+  transition: all 0.3s;
 }
 
 .main-nav__link:hover {
